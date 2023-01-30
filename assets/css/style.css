@@ -1,3 +1,114 @@
-h1{
-    color: red;
+@font-face {
+  font-family: "HelveticaNeueLTProLt";
+  src: url("../fonts/HelveticaNeueLTProLt.woff") format("woff");
+}
+@font-face {
+  font-family: "HelveticaNeueLTProMd";
+  src: url("../fonts/HelveticaNeueLTProMd.woff") format("woff");
+}
+@font-face {
+  font-family: "HelveticaNeueLTProRoman";
+  src: url("../fonts/HelveticaNeueLTProRoman.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Merriweather-LightItalic";
+  src: url("../fonts/Merriweather-LightItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("../fonts/Montserrat-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/Montserrat-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.woff") format("woff");
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu__item a {
+  font-family: Roboto-Regular;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: #989696;
+  margin-right: 43px;
+}
+.menu__item:last-child a {
+  margin: 0;
+}
+.active a,
+.menu__item a:hover {
+  color: #010101;
+}
+.logo {
+  margin: 0 16px;
+}
+.container {
+  text-align: center;
+}
+.header__title {
+  font-family: HelveticaNeueLTProLt;
+  font-size: 44px;
+  line-height: 41px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #1d1e1f;
+  margin: 207px auto 4px;
+}
+.header__text {
+  font-family: Merriweather-LightItalic, serif;
+  font-size: 16px;
+  line-height: 17px;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 0.03em;
+  color: #898888;
+  margin: 0 auto 43px;
+}
+.header__button {
+  font-family: Montserrat-Regular;
+  width: 188px;
+  height: 57px;
+  line-height: 17px;
+  border: 1px solid #000000;
+  text-transform: uppercase;
+  color: #010101;
+  text-decoration: none;
+  padding: 25px 50px ;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 206px;
+}
+.header__button:hover {
+  background-color: #000000;
+  color: #fff;
 }
