@@ -253,13 +253,19 @@ color: #777777;
 .provide__inner {
   display: flex;
   padding: 0;
-  margin: 170px 0;
+  margin: 170px 0 0 0;
+  text-align: center;
   justify-content: center;
   align-items: center;
 }
 .provide__item {
-  width: 220px;
+width: 220px;
 margin: 0 auto;
+display: flex;
+flex-direction: column;
+padding: auto;
+text-align: center;
+align-items: center;
 }
 .block__title,white{
   color: #fff;
@@ -288,12 +294,13 @@ color: #383838;
 
 .provide__icon-box {
   display: flex;
+  text-align: center;
   justify-content: center;
   align-items: center;
   color: white;
   border:5px solid white;
-  width: 165px;
-  height: 165px;
+  width: 180px;
+  height: 180px;
   border-radius: 100%;
 }
 
